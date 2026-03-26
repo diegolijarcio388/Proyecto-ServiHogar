@@ -17,7 +17,7 @@ struct TrabajadorEnCamino: View {
     // Estos valores deberían inyectarse desde la vista anterior (ej. SeleccionarProfesional)
     var workerName: String = "Marcos L."
     var workerImage: String = "hombre3" // Asegúrate de que la foto de tus Assets tenga buena calidad
-    var workerRating: Int = 5 // 🔥 Modifica esto para probar la lógica de estrellas (ej. 4 o 5)
+    var workerRating: Int = 5 // Modifica esto para probar la lógica de estrellas (ej. 4 o 5)
     
     // MARK: - Cuerpo de la Vista
     var body: some View {
@@ -323,7 +323,6 @@ struct TrabajadorEnCamino: View {
 
 // MARK: - COMPONENTES AUXILIARES
 /// `BotonAccionBlanco`: Componente de diseño para botones genéricos sin lógica especial anidada.
-/// (Nota: Mantenlo si planeas refactorizar la vista para usarlo más adelante).
 struct BotonAccionBlanco: View {
     var texto: String
     var body: some View {

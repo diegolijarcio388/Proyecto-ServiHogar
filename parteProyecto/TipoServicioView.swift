@@ -136,7 +136,7 @@ struct TipoServicioView: View {
                             
                             // Botones de selección de cita
                             HStack(spacing: 15) {
-                                // 🔵 BOTÓN PROGRAMAR
+                                // BOTÓN PROGRAMAR
                                 Button(action: {
                                     withAnimation(.easeInOut) {
                                         mostrarCalendario = true
@@ -156,7 +156,7 @@ struct TipoServicioView: View {
                                     .cornerRadius(10)
                                 }
                                 
-                                // 🟢 BOTÓN URGENTE
+                                // BOTÓN URGENTE
                                 Button(action: {
                                     withAnimation(.spring()) {
                                         citaUrgente = true

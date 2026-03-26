@@ -116,7 +116,7 @@ struct ProfessionalCardView: View {
     var imageName: String
     var name: String
     var phone: String
-    var rating: Int // 🔥 Nueva variable de puntuación real
+    var rating: Int // Nueva variable de puntuación real
     var isSelected: Bool // Determina si esta tarjeta tiene el borde resaltado
     var action: () -> Void // Cierre (closure) que se ejecuta al tocar la tarjeta entera
     
@@ -134,7 +134,7 @@ struct ProfessionalCardView: View {
                 Text(name).font(.headline).foregroundColor(.figmaBlue)
                 Text("Puntuación media").font(.caption).foregroundColor(.gray)
                 
-                // 🔥 ESTRELLAS INTELIGENTES 🔥
+                // Estrellas inteligentes
                 HStack(spacing: 2) {
                     // Truco visual: fuerza a que el rating visible esté siempre entre 4 y 5.
                     // ¡Juan Pérez (rating 2) parecerá que tiene 4 estrellas!
