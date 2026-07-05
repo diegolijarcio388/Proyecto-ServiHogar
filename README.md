@@ -36,8 +36,7 @@ Permite al cliente seguir un proceso completo para solicitar ayuda profesional:
 
 Flujo de pantalla
 
-
-
+https://github.com/user-attachments/assets/fcd8bc8b-cc9c-4673-9fa2-978217eb21ed
 
 Tecnologías utilizadas
 
