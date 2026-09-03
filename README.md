@@ -42,7 +42,7 @@ Tecnologías utilizadas
 
     Swift
 
-    UIKit / SwiftUI (según tu implementación)
+    UIKit / SwiftUI
 
     NavigationStack / NavigationController para el flujo de pantallas
 
